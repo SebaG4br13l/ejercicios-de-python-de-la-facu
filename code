@@ -1,0 +1,173 @@
+intro a python pt1
+
+############################################
+print("Hola mundo")
+############################################
+
+############################################
+var = "Hola Mundo!"
+print(var)
+############################################
+
+############################################
+num1 = 7
+num2 = 5
+print("La suma de las variables da ", num1 + num2)
+print("La resta de las variables da ", num1 - num2)
+print("La multiplicacion de las variables da ", num1 * num2)
+print("La division de las variables da ", num1 // num2)
+############################################
+
+############################################
+b = 7
+h = 5
+r = 16
+areaRectangulo = b * h
+perimetroRectangulo = (b + h) * 2
+areaCirculo = 3.14 * (r **2)
+perimetroCirculo = 3.14 * (r + r)
+print(perimetroRectangulo, areaRectangulo)
+print(perimetroCirculo, areaCirculo)
+############################################
+
+############################################
+grados = 20
+conversion = (20 * 1.8) +32
+print(conversion)
+############################################
+
+############################################
+var = int(input("Ingrese un numero: "))
+var2 = int(input("Ingrese un numero: "))
+
+if var < var2:
+  print("")
+elif var2 < var:
+  print(var2)
+else:
+  print("Son iguales")
+var = int(input('ingrese un número entero: '))
+var1 = int(input('ingrese otro número entero: '))
+if var < var1: 
+  print(var, ' Es menor ' )
+elif var > var1:
+  print(var1,  ' Es menor ' )
+else :
+  print('Los números son iguales ' )
+############################################
+
+############################################
+pedirNombre = input('¿Cúal es tu nombre?')
+print('Hola,',pedirNombre)
+############################################
+
+############################################
+elegirNumero = int(input('Escribe un número: '))
+x = elegirNumero
+if x == 0 :
+  print('fua compa, como la complicás')
+elif  x % 2 == 0 :
+  print('Es par')
+else :
+  print('Este número no es par')
+############################################
+
+############################################
+elegirNumero = int(input('Escribe un número entre 1 y 7: '))
+if elegirNumero == 1:
+  print('Lunes')
+elif elegirNumero == 2:
+  print('Martes')
+elif elegirNumero == 3:
+  print('Miércoles')
+elif elegirNumero == 4:
+  print('Jueves')
+elif elegirNumero == 5:
+  print('Viernes')
+elif elegirNumero == 6:
+  print('Sábado')
+elif elegirNumero == 7:
+  print('Domingo')
+else :
+  print('Número fuera de rango')
+############################################
+
+############################################
+genero = input("Ingrese su genero: ")
+inicial = input("Ingrese la inicial de su nombre: ")
+
+if (genero == "F" and inicial < "M") or (genero == "M" and inicial > "N"):
+  print("Grupo A")
+else:
+  print("Grupo B")
+############################################
+
+############################################
+pedirEdad = int(input('Indique su edad: '))
+if pedirEdad <= 4 :
+  print('Usted ingresa gratis')
+elif pedirEdad >= 4 and pedirEdad <=18 :
+  print('Abona $5')
+else :
+  print('Abona $10')
+############################################
+
+############################################
+#for i in range(1,101): #[1,2,3,4,....,100]
+#  print(i)
+
+#i = 1
+#while i <= 100:
+#  print(i)
+#  i += 1  #i = i+1
+
+for var in range (101):
+  if var !=0:
+    print(var)
+
+var = 0
+while (var <= 99):
+  var += 1
+  print(var)
+############################################
+
+############################################
+print('Ingrese dos valores')
+valor1 = int(input('Valor 1: '))
+valor2 = int(input('Valor 2: '))
+for var in range(valor1 +1 , valor2):
+  print(var)
+############################################
+
+############################################
+nombreUsuario = input('¿Cúal es tu nombre?')
+numeroElegido = int(input('Elegi un número: '))
+for var in range(numeroElegido):
+  print(nombreUsuario)
+############################################
+
+############################################
+numeroElegido = int(input('Ingrese un número: '))
+for i in range(numeroElegido+1):
+  print('*' * i)
+############################################
+
+############################################
+for i in range(7):   #range(0,7)
+  for j in range(i,7):
+    print(i,"|",j)
+  print()
+############################################
+
+############################################
+
+############################################
+
+############################################
+############################################
+
+############################################
+############################################
+
+############################################
+############################################
